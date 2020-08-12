@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dtcx"
+        android:title="地铁查询" />
+    <item
+        android:id="@+id/gslk"
+        android:title="高速路况" />
+    <item
+        android:id="@+id/gsetc"
+        android:title="高速ETC" />
+    <item
+        android:id="@+id/lxxx"
+        android:title="旅行信息" />
+
+    <item
+        android:id="@+id/tqxx"
+        android:title="天气信息" />
+</menu>

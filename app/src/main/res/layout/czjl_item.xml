@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="车辆编号"
+        android:id="@+id/item_bh"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:text="车牌号"
+        android:textColor="#000"
+        android:id="@+id/item_cp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:text="充值金额"
+        android:id="@+id/item_je"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:text="充值时间"
+        android:id="@+id/item_sj"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+</LinearLayout>
